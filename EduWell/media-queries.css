@@ -1,0 +1,271 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 13px;
+    }
+    .header-area {
+        background: rgb(219, 138, 222) !important;
+        background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, #f6bf9f 100%) !important;
+        min-width: 100vh;
+    }
+    .hero-right img {
+        width: 65%;
+    }
+    .hero-right-background {
+        width: 29rem;
+        height: 23.4375rem;
+        right: 4rem;
+    }
+    .services-text{
+        margin-left: 1.8rem;
+    }
+    .services-card{
+        flex-basis: 30%;
+    }
+    .image-right{
+        right: 1.45rem;
+    }
+    .image-left{
+        left: 1.45rem;
+    }
+    .price{
+        top: 6rem;
+    }
+    .courses-left-img {
+        max-width: 20rem;
+    }
+    .before-background:before {
+        top: -10rem;
+    }
+    .copyright{
+        right: 33%;
+    }
+    .testimonial-top{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    html {
+        font-size: 12px;
+    }
+    .services-cards{
+        gap: 0;
+    }
+    .hero-right-background {
+        right: 5.5rem;
+    }
+    .courses-left-img{
+        margin-left: 2rem;
+    }
+    .courses-right-content {
+        margin-left: 24rem;
+    }
+    .banner-img-hright{
+        margin-right: 0;
+    }
+    .price{
+        top: 5rem;
+        left: 4rem;
+    }
+    .sale-section {
+        margin-bottom: 8rem;
+    }
+    .sale-right{
+        margin: 0;
+        padding: 0;
+        padding: 0;
+    }
+    .sale-right h4{
+        line-height: 3.2rem;
+    }
+    .testimonial{
+        padding: 0.5rem;
+    }
+    .contact1, .contact2{
+        position: relative;
+        top: 5rem;
+    }
+    .form{
+        position: unset;
+        width: 46rem;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+    .contactus{
+        flex-direction: column;
+    }
+    .map{
+        position: static;
+        /* height: 0; */
+    }
+    .social-icons{
+        position: static;
+    }
+    .copyright{
+        position: static;
+    }
+    .contact-card{
+        width: 45.625rem;
+        gap: 1rem;
+        margin-top: 1rem;
+        right: 0rem;
+        justify-content: flex-start;
+    }
+    .contactus-section{
+        height: 100%;
+    }
+    .text{
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 11px;
+    }
+    .main-nav{
+        justify-content: space-around;
+    }
+    .nav{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+    .nav.active{
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    #nav-toggle{
+        display: inline-block;
+        margin-left: 6.7rem;
+        color: white;
+        
+    }
+    .header-area{
+        height: 6rem;
+    }
+    .nav-toggle i{
+        font-size: 25px;
+    }
+    .hero-section{
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 38rem;
+    }
+    .hero-right{
+        margin-top: 18rem;
+        width: 100%;
+        right: 20rem;
+    }
+    .hero-right img {
+        width: 100%;
+    }
+    .hero-left{
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .hero-left-background{
+        top: 10rem;
+    }
+    .image-left{
+        left: 2.5rem;
+    }
+    .image-right{
+        right: 5.5rem;
+    }
+    .services-section{
+        margin-bottom: 2rem;
+    }
+    .services-cards{
+        justify-content: space-around;
+    }
+    .services-card{
+        width: 8rem;
+    }
+    #s1, #s2{
+        display: none;
+        justify-content: center;
+    }
+    .services-text{
+        margin-top: 2rem;
+    }
+    .courses-text{
+        margin-top: 6rem;
+    }
+    .courses-big {
+        flex-direction: column;
+    }
+    .box{
+        width: 35rem;
+        margin: 2rem;
+    }
+    .sale-section{
+        flex-direction: column;
+        background-size: cover;
+    }
+    .sale-left-img{
+        width: 80%;
+        align-items: center;
+    }
+    .sale-right{
+        margin-top: 17rem;
+    }
+    #t1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .contact1{
+        margin-top: 8rem;
+    }
+    .form{
+        width: 35rem;
+    }
+    .contact-card{
+        width: 35rem;
+    }
+    .map{
+        width: 35rem;
+    }
+    .sale-section{
+        min-width: 40rem;
+    }
+    #s3{
+        display: none;
+    }
+    .services-cards{
+        width: 32rem;
+        max-height: 25rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .courses-text{
+        margin-top: 10rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    html {
+        font-size: 8px;
+    }
+    .hero-right{
+        margin-left: 2rem;
+    }
+    .hero-c-left{
+        margin-bottom: 7rem;
+    }
+    .hero-right img{
+        margin-top: 8rem;
+    }
+}

@@ -1,0 +1,117 @@
+@media screen and (max-width:990px) {
+    .main-banner-section{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 55rem;
+    }
+    .banner-text{
+        flex-basis: 100%;
+    }
+    .main-banner{
+        padding-top: 15rem;
+    }
+    .banner-img{
+        flex-basis: 100%;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+    .img-buttons{
+        margin-left: 30%;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-toggle{
+        display: inline-block;
+    }
+    .main-nav{
+        justify-content: space-between;
+    }
+    .cat-items{
+        flex-wrap: wrap;
+    }
+    #bi1{
+        display: none;
+    }
+    .top-heading {
+        margin-left: 15%;
+    }
+    .nft .items{
+        flex-direction: column;
+        text-align: center;
+    }
+    .number{
+        display: none;
+    }
+    .create-nft::after{
+        display: none;
+    }
+    .nft-header{
+        flex-direction: column;
+    }
+    .nft-header .liml.line-dec {
+        align-items: center;
+    }
+    .section-heading .line-dec {
+        margin: 0%;
+    }
+    .section-heading{
+        text-align: center;
+    }
+    .create-nft .first-item:after, .create-nft .second-item:after{
+        visibility: hidden;
+    }
+    .nft-header .section-heading{
+        text-align: center;
+    }
+    .second-item, .third-item{
+        margin-left: 0;
+    }
+    .create-nft p {
+        margin-right: 0;
+    }
+    .categories-section{
+        width: 100%;
+    }
+    .market-top{
+        flex-direction: column;
+    }
+    .nav-market{
+        margin-top: 10%;
+    }
+    .market-line{
+        margin-left: 10%;
+    }
+    .section-heading{
+        text-align: center;
+    }
+    .nav-market{
+        text-align: center;
+    }
+    .market-top{
+        justify-content: center;
+    }
+    .current-market .section-heading .line-dec {
+        margin-left: 35%;
+    }
+    .market-h h2{
+        text-align: center;
+    }
+    .market-item{
+        overflow: hidden;
+    }
+
+}
+@media screen and (max-width:490px) {
+    #bi2{
+        display: none;
+    }
+    .market-cards{
+        flex-direction: column;
+    }
+    .market-item{
+        flex-direction: column;
+    }
+}

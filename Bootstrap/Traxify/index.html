@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Traxify</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c6b9962fad.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./mediaqueries.css" />
+</head>
+
+<body>
+  <!-- NAvbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="nav-left">
+        <a class="navbar-brand ps-5" href="#">
+          <img src="/assets/asset 1.png" alt="Bootstrap" width="auto" height="50" />
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-3 text-black">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown text-black">
+              <a class="nav-link dropdown-toggle pe-3" href="#">Resources</a>
+              <nav class="navbar-dropdown2_dropdown-list w-dropdown-list w--open" id="w-dropdown-list-0"
+                aria-labelledby="w-dropdown-toggle-0" style="opacity: 1;">
+                <div class="navbar-dropdown2_container gap-5">
+                  <div class="navbar-dropdown2_dropdown-content row">
+                    <div class="navbar-dropdown2_content-left col-lg-6 col-md-12">
+                      <div class="navbar-dropdown2_dropdown-link-list"><a href="/affiliates"
+                          class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cdf0a_n-icon-affiliate.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Affiliate</div>
+                            <p class="text-size-small hide-mobile-landscape">Sign up and get your affiliate link.</p>
+                          </div>
+                        </a><a href="/pricing" class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cdeed_n-icon-dollar.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Pricing</div>
+                            <p class="text-size-small hide-mobile-landscape">See all the plans that fits your store.</p>
+                          </div>
+                        </a><a href="/book-a-demo" class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cde76_n-icon-form.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Book A Demo</div>
+                            <p class="text-size-small hide-mobile-landscape">Get a demo straight to your inbox.</p>
+                          </div>
+                        </a></div>
+                      <div class="navbar-dropdown2_dropdown-link-list"><a href="/blog"
+                          class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cdea9_n-icon-blog.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Blog</div>
+                            <p class="text-size-small hide-mobile-landscape">See all the latest news about Trackify
+                              &nbsp;X</p>
+                          </div>
+                        </a><a href="https://intercom.help/trackify-x-wiki/en/" target="_blank"
+                          class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cde3b_n-icon-helpdesk.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Help Desk</div>
+                            <p class="text-size-small hide-mobile-landscape">Find solutions for all your questions.</p>
+                          </div>
+                        </a><a href="/contact-us" class="navbar-dropdown2_dropdown-link w-inline-block" tabindex="0">
+                          <div class="navbar5_icon-wrapper"><img loading="lazy"
+                              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/667bf7ea60f87bc2d28cdec6_n-icon-contactus.svg"
+                              alt="" class="icon-height-xsmall"></div>
+                          <div class="navbar5_item-right">
+                            <div class="text-weight-semibold-2">Contact Us</div>
+                            <p class="text-size-small hide-mobile-landscape">Our customer heroes are here for you.</p>
+                          </div>
+                        </a></div>
+                    </div>
+                    <div class="navbar-dropdown2_content-right col-lg-6 col-md-12">
+                      <div class="navbar-dropdown2_dropdown-content-wrapper z-index-1">
+                        <h4 class="text-size-small text-weight-semibold navigation">Featured from Blog</h4>
+                        <div class="navbar-dropdown2_blog-list-wrapper w-dyn-list">
+                          <div role="list" class="navbar-dropdown2_blog-list w-dyn-items">
+                            <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606a8-e9d6065c" role="listitem"
+                              class="navbar-dropdown2_blog-item-2 w-dyn-item">
+                              <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606a9-e9d6065c"
+                                class="navbar-dropdown2_blog-image-wrapper">
+                                <img loading="lazy"
+                                  src="https://cdn.prod.website-files.com/653b570758f2eeafafa3a772/66a938367f391719bd54fdbb_TFX-AdsConversion.jpg"
+                                  alt="" sizes="100vw" class="navbar-dropdown2_blog-image"></div>
+                              <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606ab-e9d6065c"
+                                class="navbar-dropdown2_large-item-content">
+                                <div class="margin-bottom margin-tiny">
+                                  <div class="text-weight-semibold-3">Boost Your Ad Campaigns with
+                                    Trackify X’s Conversion API</div>
+                                </div>
+                                <p class="text-size-small">The Conversion API (CAPI) is a powerful tool that allows you
+                                  to send webevents from your server directly to Facebook.</p>
+                                <div class="margin-top margin-xxsmall">
+                                  <div class="text-style-link text-size-small"><a
+                                      href="/blogs/boost-your-ad-campaigns-with-trackifyx-conversion-api"
+                                      class="s-homepageanvlink" tabindex="0">Read More</a></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606a8-e9d6065c"
+                              class="navbar-dropdown2_blog-item-2 w-dyn-item">
+                              <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606a9-e9d6065c"
+                                class="navbar-dropdown2_blog-image-wrapper">
+                                <img loading="lazy"
+                                  src="https://cdn.prod.website-files.com/653b570758f2eeafafa3a772/66a935d4dd387e01c3b6c6a2_TFX-BlogPostConversion.jpg"
+                                  alt="" sizes="100vw" class="navbar-dropdown2_blog-image"></div>
+                              <div id="w-node-_7ee7650d-1fd8-1c56-0655-fea0e9d606ab-e9d6065c"
+                                class="navbar-dropdown2_large-item-content">
+                                <div class="margin-bottom margin-tiny">
+                                  <div class="text-weight-semibold-3">Boost Your TikTok Ad
+                                    Performance with Trackify X’s Advanced TikTok Pixel Integration</div>
+                                </div>
+                                <p class="text-size-small">Starting a new e-commerce venture isexciting, but getting off
+                                  to a successful start requires a lot of work.</p>
+                                <div class="margin-top margin-xxsmall">
+                                  <div class="text-style-link text-size-small"><a
+                                      href="/blogs/boost-your-tiktok-ad-performance-with-trackify-advanced-tiktok-pixel-integration"
+                                      class="s-homepageanvlink" tabindex="0">Read More</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="button-group" bis_skin_checked="1"><a href="/blog"
+                            class="button-8 is-link is-icon w-inline-block w-clearfix" tabindex="0"
+                            bis_skin_checked="1">
+                            <div class="text-block-76" bis_skin_checked="1">See all articles</div>
+                            <div class="icon-embed-xxsmall-2 w-embed" bis_skin_checked="1"><svg width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
+                              </svg></div>
+                          </a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item pe-3 text-black">
+              <a class="nav-link">Partners</a>
+            </li>
+          </ul>
+          <div class="s-navbar-button">
+            <a id="start_free_trial" href="https://apps.shopify.com/trackify-1" target="_blank"
+              class="button-new nav ">Start Free Trial</a>
+          </div>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div class="main-hero-section">
+    <div class="container-fluid container-blue">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 text-center text-lg-start">
+          <h1 class="new-h1">
+            <span class="yellow-h1">Improve Your Store's Marketing Campaigns by Using In-Depth Tracking &amp; Custom
+              Audiences</span>
+          </h1>
+          <p class="sub-heading-h1">
+            <strong>Use Facebook Pixel, TikTok Pixel, UTM’s, Catalogs &amp; Custom Audiences to Optimize Your Stores
+              Marketing</strong>
+          </p>
+          <p class="p-heading">
+            Maximize the effectiveness of your store's marketing campaigns on Facebook Ads &amp; TikTok Ads by examining
+            and monitoring customer behavior using UTM's, TikTok Pixel, and Facebook Pixel events. Trackify X offers
+            dependable data to facilitate informed decision-making. Gain insights into the impact of your marketing
+            efforts through comprehensive analytics and KPI reports. Utilize this data to create tailored lookalike and
+            retargeting audiences. Additionally, Trackify X streamlines catalog management by employing automated feeds.
+          </p>
+          <div class="_2-buttons-block d-flex justify-content-center justify-content-lg-start gap-3">
+            <a id="start_free_trial" href="https://apps.shopify.com/trackify-1"
+              class="button-new yellow-button w-button">
+              Start Free Trial
+            </a>
+            <a href="/book-a-demo" class="button-new yellow-button phone-button w-button">
+              Book A Demo
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+          <img
+            src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/657a061cf5e9a34deaa30e28_TFX-HeaderBanner-Graphics.webp"
+            loading="lazy" class="img-fluid image-11" alt="" />
+        </div>
+      </div>
+    </div>
+    <h2 class="h2-new mt-4">Embark on a journey where data-driven decisions<br />pave the way for exceptional results.
+    </h2>
+  </div>
+
+  <!-- Why Hidden Section -->
+  <div class="section-why hidden">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 col-md-12 text-center text-lg-start">
+          <img
+            src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/657a098291f1ea2ef7c28e2c_TFX-WhyChooseUs.webp"
+            class="img-fluid why-img" loading="lazy" alt="" />
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <h2 class="h2-new-inner">Features Designed to Maximize Your Store’s Marketing Campaigns</h2>
+          <div class="row list-new-why">
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Advanced Events</p>
+              <p class="list-p-item">Track purchase events and other non-purchase events such as viewing a category,
+                customizing a product, and cart views.</p>
+            </div>
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Custom Audiences</p>
+              <p class="list-p-item">Create custom audiences based on the niche, collection, date, and activity time.
+              </p>
+            </div>
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Retargeting &amp; Lookalike Audiences</p>
+              <p class="list-p-item">Build and create highly targeted custom and look-alike &amp; retargeting audiences.
+              </p>
+            </div>
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Reliable Reports</p>
+              <p class="list-p-item">Create reliable reports for each pixel, tag, collection, product, and UTM tag.</p>
+            </div>
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Track Multiple Pixels</p>
+              <p class="list-p-item">Simultaneously track multiple pixels for comprehensive data analysis and improved
+                accuracy.</p>
+            </div>
+            <div class="col-sm-6 col-12 list-item-new">
+              <p class="list-title">Dashboard</p>
+              <p class="list-p-item">An easy-to-navigate dashboard that simplifies tracking and provides clear insights
+                into your marketing performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656ce505236019bf08cfbf8d_Rectangle%208.png"
+        class="img-fluid line-center" loading="lazy" alt="" />
+    </div>
+  </div>
+  <!-- CTA section -->
+  <div class="cta-secition">
+    <div class="container-blue cta">
+      <div>
+        <h3 class="new-h1 cta-heading">Start<span class="yellow-h1"> 7-Day </span>Free Trial</h3>
+        <p class="p-heading cta-p">Install at no risk for 7-day to unleash the power of data-driven<br>insights for
+          boosted sales today!</p>
+        <div class="cta-button"><a id="start_free_trial" href="https://apps.shopify.com/trackify-1"
+            class="button-new yellow-button w-button">Start Free Trial</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- Reviews Secton -->
+  <div class="reviews-section">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row">
+        <!-- Slider Section -->
+        <div id="reviewsCarousel" class=" flex-grow-1" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="review-inner">
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59cbe88deb55260973d4_Rectangle%2015.webp"
+                      alt="">
+                    <p class="reviews-p-inner">We have been using this app for a few years. It's great for tracking FB
+                      sales. Customer service is great too.</p>
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59de0732822eb9c2ad36_star%20copy%204.png"
+                      alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="review-inner">
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59cbe88deb55260973d4_Rectangle%2015.webp"
+                      alt="">
+                    <p class="reviews-p-inner">Great. Customer service is great, easy to reach, and always ready to
+                      help.</p>
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59de0732822eb9c2ad36_star%20copy%204.png"
+                      alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="review-inner">
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59cbe88deb55260973d4_Rectangle%2015.webp"
+                      alt="">
+                    <p class="reviews-p-inner">A friend recommended this app. I received a lot of help installing the
+                      app via a video call. I would definitely recommend this app.</p>
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59de0732822eb9c2ad36_star%20copy%204.png"
+                      alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="review-inner">
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59cbe88deb55260973d4_Rectangle%2015.webp"
+                      alt="">
+                    <p class="reviews-p-inner">Good app, very easy to connect the pixel and conversion API with
+                      Facebook. Great customer service too.</p>
+                    <img
+                      src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d59de0732822eb9c2ad36_star%20copy%204.png"
+                      alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Heading reviews -->
+        <div class="reviews-heading text-center text-lg-start ms-lg-5 mt-4 mt-lg-0">
+          <img src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656cecd60b2fc19ffdd6fb1a_quote.webp"
+            alt="">
+          <p class="reviews-p mt-3">Hear from our satisfied users<br>how Trackify has revolutionized<br>their Shopify
+            experience, boosting ROI and seamlessly integrating<br>with social media platforms.</p>
+          <img
+            src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656ced27a2cda12f26c2433f_Vector%20Smart%20Object.webp"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <div class="footer-section-new">
+    <div class="blue-footer">
+      <div class="container-fluid">
+        <div class="row m-auto px-3">
+          <!-- First Column (Logo and Description) -->
+          <div class="col-md-3 mb-4 p3">
+            <img
+              src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/65e58611995ddd19c9c5920f_TFX-BlackBG-FullLogo-Transparent.png"
+              loading="lazy" sizes="100vw" alt="">
+            <p class="footer-p mt-3 mb-4">
+              <span class="yellow"><strong>Harness the Power of Data</strong></span><br>
+              Your Ultimate Tool for Precision Marketing and Insightful Analytics
+            </p>
+            <div class="social d-flex">
+              <a href="https://www.facebook.com/trackifyapp/" target="_blank" class="mr-3">
+                <img
+                  src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d65e1f6866162fe7ed697_Group%2013.png"
+                  loading="lazy" alt="">
+              </a>
+              <a href="https://www.linkedin.com/company/trackify-x/" target="_blank" class="mr-3">
+                <img
+                  src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d65ef0882f1e95cc32905_Group%2013%20-%20copia.png"
+                  loading="lazy" alt="">
+              </a>
+              <a href="https://www.youtube.com/@trackifyx" target="_blank">
+                <img
+                  src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d65f9f6866162fe7eed55_Group%2013%20-%20copia%20(2).png"
+                  loading="lazy" alt="">
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="col-md-2 mb-4 pt-5 ps-5">
+            <p class="foote-heazdings">Quick Links</p>
+            <a href="/about-us" class="footer-link">About Us</a>
+            <a href="/features" class="footer-link">Features</a>
+            <a href="/pricing" class="footer-link">Pricing</a>
+            <a href="/affiliates" class="footer-link">Affiliates</a>
+            <a href="/partners" class="footer-link">Partners</a>
+          </div>
+
+          <!-- Book a Demo and Blog -->
+          <div class="col-md-2 mb-4 pt-5 ps-5">
+            <a href="/book-a-demo" class="footer-link">Book A Demo</a>
+            <a href="/blog" class="footer-link">Blog</a>
+            <a href="https://help.redretarget.com/en/" target="_blank" class="footer-link">Help Desk</a>
+            <a href="/contact-us" class="footer-link">Contact Us</a>
+            <a href="/partner-directory" class="footer-link">Partner Directory</a>
+          </div>
+
+          <!-- Start Free Trial and Footer Info -->
+          <div class="col-md-5 mb-4 text-md-right d-flex flex-column align-items-end text-right pt-5 ">
+            <p class="foote-heazdings">
+              <a href="https://apps.shopify.com/trackify-1" target="_blank" class="link-4">Start Free Trial</a>
+            </p>
+            <a id="start_free_trial" href="https://apps.shopify.com/trackify-1" class="text-end">
+              <img
+                src="https://cdn.prod.website-files.com/6524df910066d6fb661ca6c2/656d64c0a795ed37cbd58d4a_Shopify-App-Store-Badge-Final-White.webp"
+                loading="lazy" alt="" class="image-14">
+            </a>
+            <p class="paragraph-25">
+              © 2023 All Rights Reserved | Trackify X<br>
+              <a href="/terms-of-service" class="footer-site-link"><span class="text-span-6">Terms &amp;
+                  Conditions</span></a>
+              <span class="text-span-6"> | </span>
+              <a href="/privacy-policy" class="footer-site-link"><span class="text-span-6">Privacy Policy</span></a>
+              <span class="text-span-6"> | </span>
+              <a href="/cookie-policy" target="_blank" class="footer-site-link"><span class="text-span-6">Cookie
+                  Policy</span></a>
+              <span class="text-span-6"> | </span>
+              <a href="https://www.trackifyapp.com/sitemap.xml" class="footer-site-link"><span class="text-span-6">Site
+                  Map</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+</body>
+
+
+</html>

@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Scrolling Animation */
+.scrolling-text {
+  display: inline-block;
+  animation: slide 20s linear infinite;
+  font-size: 1.5rem; /* Adjust text size as needed */
+}
+
+/* Make SVG size match the text size */
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Continuous scrolling effect */
+@keyframes scroll-text {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
